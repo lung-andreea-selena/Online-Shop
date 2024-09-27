@@ -1,17 +1,34 @@
 # Online-Shop
-An online shop made in PHP using OOP concepts and a MVC design pattern. Focused on the backend and has basic frontend.
-Functionalities:
-  Home page 
-    - you can see all the producs (some with tax included if it was the case) available in the shop. 
-    - every product has a 'view details' button
-    - go to cart
-    - go to report
-  Product Details Page - you can find more details about the product and select a desired quantity and add it to the cart
-  Cart page - you can see what you added in the cart and the total
-            - choose to remove an item of you want
-            - go to checkout
-  Checkout page - review your total
-                - add order informations
-                - place order or cancel order
-  Report page - a table with all orders that contain products priced below 100 lei, which belong to categories that have more than 3 products
-              
+
+An online shop built in **PHP**, following **OOP** principles and the **MVC design pattern**. The project primarily focuses on backend functionality, with a basic frontend for interaction.
+
+## Features
+
+### Home Page
+- Displays all available products, with tax included where applicable.
+- Each product has a "View Details" button.
+- Navigation options to:
+  - **Go to Cart**
+  - **Go to Report**
+
+### Product Details Page
+- View detailed information about a specific product.
+- Select a desired quantity and add it to the cart.
+
+### Cart Page
+- View all items added to the cart and the total price.
+- Remove items from the cart if needed.
+- Proceed to the checkout.
+
+### Checkout Page
+- Review your total before placing the order.
+- Enter customer details (name, email, phone, address).
+- Option to **Place Order** or **Cancel Order**.
+
+### Report Page
+- Displays a table with all orders containing products priced below 100 lei, from categories that have more than 3 products.
+
+## Tech Stack
+- **PHP** for backend logic
+- **OOP** principles for clean, modular code
+- **MVC** pattern to separate concerns
